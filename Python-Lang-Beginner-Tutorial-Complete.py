@@ -179,6 +179,7 @@ print(nums)               # Prints "[0, 1, 8, 9, 4]"
 t = 12345, 54321, 'hello!'
 print(t[0]) # Prints 12345
 print(t) # Prints (12345, 54321, 'hello!')
+print(len(t)) # Prints 3
 # Tuples may be nested:
 u = t, (1, 2, 3, 4, 5)
 print(u) # Print ((12345, 54321, 'hello!'), (1, 2, 3, 4, 5))
